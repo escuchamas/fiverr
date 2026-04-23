@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <rect width="32" height="32" rx="8" fill="#0a1f14"/>
+  <text x="7" y="22" font-family="Arial, sans-serif" font-weight="900" font-size="13" fill="#1dbf73">SL</text>
+  <circle cx="27" cy="6" r="4" fill="#1dbf73"/>
+  <circle cx="27" cy="6" r="2" fill="#0a1f14"/>
+</svg>
