@@ -458,8 +458,46 @@
 
     /* ── RESPONSIVE ── */
     @media (max-width: 768px) {
+      /* Announce bar */
+      .announce-bar { font-size: .72rem; padding: .5rem 4%; line-height: 1.4; }
+      .announce-bar .sep { display: none; }
+      .announce-bar br-mob { display: block; }
+
+      /* Nav */
       .nav-links { display: none; }
+      nav { padding: 0 4%; gap: .5rem; }
+      .nav-logo { font-size: 1rem; }
+      .lang-toggle { border-radius: 8px; }
+      .lang-btn { padding: .35rem .75rem; font-size: .78rem; }
+      .nav-cta { padding: .4rem .9rem; font-size: .8rem; }
+
+      /* Hero */
+      .hero { padding: 130px 5% 60px; }
+      .hero-btns { flex-direction: column; align-items: center; }
+      .hero-btns a { width: 100%; max-width: 320px; text-align: center; }
+      .hero-stats { gap: 1.5rem; }
+
+      /* Process */
+      .process-steps { grid-template-columns: 1fr 1fr; }
       .process-steps::before { display: none; }
+
+      /* Guarantees */
+      .guarantees-bar { flex-direction: column; align-items: flex-start; padding: 1.5rem 5%; gap: 1.2rem; }
+      .guarantee-item { padding: 0; }
+
+      /* Pricing */
+      .pricing-grid { grid-template-columns: 1fr; }
+
+      /* CTA section */
+      .cta-section { margin: 0 3%; padding: 3.5rem 1.5rem; }
+
+      /* WhatsApp float — smaller on mobile */
+      .wa-float { padding: .7rem; border-radius: 50%; bottom: 1.5rem; right: 1.5rem; }
+      .wa-float span { display: none !important; }
+      .wa-float svg { width: 26px; height: 26px; }
+
+      /* Footer */
+      footer { flex-direction: column; align-items: flex-start; }
     }
 
     /* ── SCROLL REVEAL ── */
@@ -471,8 +509,8 @@
 
   <!-- ANNOUNCE BAR -->
   <div class="announce-bar">
-    <span data-lang="es">⏱️ Esta web la construí en <strong>30 minutos</strong><span class="sep">·</span>Imagina lo que puedo hacer con tu negocio en 24 horas</span>
-    <span data-lang="en">⏱️ I built this website in <strong>30 minutes</strong><span class="sep">·</span>Imagine what I can do for your business in 24 hours</span>
+    <span data-lang="es">⏱️ Esta web: <strong>30 min</strong> &nbsp;·&nbsp; Tu negocio en <strong>24h</strong></span>
+    <span data-lang="en">⏱️ This site: <strong>30 min</strong> &nbsp;·&nbsp; Your business in <strong>24h</strong></span>
   </div>
 
   <!-- NAV -->
